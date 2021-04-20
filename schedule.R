@@ -39,8 +39,8 @@ schedule_scene <- function(scene_name,
 }
 
 
-schedule_scene("morning", "middle", paste0(Sys.Date(),"T07:00:00"), trans_time = 10*60*15)
+schedule_scene("morning", "middle", paste0(Sys.Date(),"T06:30:00"), trans_time = 10*60*15)
 schedule_scene("midday",  "middle", paste0(Sys.Date(),"T08:00:00"), trans_time = 10*60*15)
-schedule_scene("evening", "middle", paste0(Sys.Date(),"T19:00:00"), trans_time = 10*60*15)
-schedule_scene("night",   "middle", paste0(Sys.Date(),"T20:00:00"), trans_time = 10*60*15)
+schedule_scene("evening", "middle", paste0(Sys.Date(),"T19:30:00"), trans_time = 10*60*15)
+schedule_scene("night",   "middle", paste0(Sys.Date(),"T20:30:00"), trans_time = 10*60*15)
 
